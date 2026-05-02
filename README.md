@@ -1,6 +1,6 @@
 # JAPE-GPT: Adversarial Dataset & Detection Framework for LLM Security
 
-Overview
+##  Overview
 
 JAPE-GPT is a security-focused dataset and machine learning framework designed to detect **prompt injection** and **jailbreak attacks** in Large Language Models (LLMs).
 
@@ -8,7 +8,7 @@ This project addresses critical vulnerabilities in modern AI systems by modeling
 
 ---
 
-Objectives
+##  Objectives
 
 * Build a **large-scale adversarial dataset**
 * Model attacks such as:
@@ -26,7 +26,7 @@ Objectives
 
 ---
 
-Dataset
+##  Dataset
 
 * Size: **10,263 samples**
 * Categories:
@@ -47,21 +47,21 @@ Each sample includes:
 
 ---
 
-Methodology
+##  Methodology
 
-1. Dataset Generation
+### 1. Dataset Generation
 
 * Scenario-driven prompt engineering
 * Automated LLM-based generation
 * Multi-turn adversarial chaining
 
-2. Feature Engineering
+### 2. Feature Engineering
 
 * Text features (TF-IDF + PCA)
 * Structural features (zero-width, homoglyphs)
 * Behavioral features (intent, tone)
 
-3. Models Used
+### 3. Models Used
 
 * Random Forest
 * XGBoost
@@ -70,21 +70,18 @@ Methodology
 
 ---
 
-Results
+##  Results
 
 * Strong performance across multiple models
 * High precision/recall for adversarial detection
 * Robust handling of obfuscated attacks
 
+
 ---
 
-
-
-Future Work
+## Future Work
 
 * Real-time detection API
 * Integration with LLM pipelines
 * Transformer-based models (BERT, LLM fine-tuning)
-
-
 
